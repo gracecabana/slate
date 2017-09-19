@@ -17,47 +17,25 @@ includes:
 search: true
 ---
 
-# Introduction
+# Introducción
 
 Intro bella redactada por Andy aquí :)
 
-This example API documentation page was created with [Slate](https://github.com/tripit/slate). Feel free to edit it and use it as a base for your own API's documentation.
+# Botón
 
-# Authentication
+## Descripción
+Existen tres tipos de botones, cada uno puede trabajarse en tres tamaños distintos y cada uno tiene diferentes estados, estas características deben ser transversales sin importar los estilos que se usen para personalizarlos.
+Lo anterior se puede dividir en dos grupos: “Botones Evidentes” y “Botones Sutiles”. El primer conjunto corresponde a los botones que tienen un color de fondo, y el segundo a los botones que tienen un fondo transparente.
 
-> To authorize, use this code:
+## ¿Cuándo se usa?
+Cuándo se necesita un llamado a una acción.
 
-```ruby
-require 'kittn'
-
-api = Kittn::APIClient.authorize!('meowmeowmeow')
-```
-
-```python
-import kittn
-
-api = kittn.authorize('meowmeowmeow')
-```
-
-```shell
-# With shell, you can just pass the correct header with each request
-curl "api_endpoint_here"
-  -H "Authorization: meowmeowmeow"
-```
-
-```javascript
-const kittn = require('kittn');
-
-let api = kittn.authorize('meowmeowmeow');
-```
-
-> Make sure to replace `meowmeowmeow` with your API key.
-
-Kittn uses API keys to allow access to the API. You can register a new Kittn API key at our [developer portal](http://example.com/developers).
-
-Kittn expects for the API key to be included in all API requests to the server in a header that looks like the following:
-
-`Authorization: meowmeowmeow`
+## ¿Cómo se usa?
+* Mantener un verbo en su etiqueta, que invite a la acción que se quiere al hacer clic en el botón.
+* Debe existir una respuesta de interacción al usuario (La apariencia del botón cambia de acuerdo a su estado)
+* Se debe jerarquizar a través de su color o su tamaño, dependiendo la importancia de su acción respecto a los demás botones.
+* Debe ser consistente (ej Si se definen botones de borde rectangular, todos deben ser así)
+* Para dispositivos móviles el tamaño mínimo en mm debe ser 10x10mm
 
 <aside class="notice">
 You must replace <code>meowmeowmeow</code> with your personal API key.

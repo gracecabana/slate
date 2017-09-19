@@ -28,8 +28,6 @@ Lo anterior se puede dividir en dos grupos: “Botones Evidentes” y “Botones
 
 ### Botones evidentes
 Que tienen un color de fondo
-#### Small
-<button class="small">Click me</button>
 
 ```html
 <button class="small">Click me</button>
@@ -40,13 +38,15 @@ Que tienen un color de fondo
 	
 }
 ```
-#### Ícono y texto
-<button><i></i><span>Click me</span></button>
+#### Small
+<button class="small">Click me</button>
+
 
 ```html
 <button><i></i><span>Click me</span></button>
 ```
-
+#### Ícono y texto
+<button><i></i><span>Click me</span></button>
 
 
 ### Botones sutiles

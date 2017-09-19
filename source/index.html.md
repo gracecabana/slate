@@ -2,9 +2,8 @@
 title: API Reference
 
 language_tabs: # must be one of https://git.io/vQNgJ
-  - shell
-  - ruby
-  - python
+  - html
+  - css
   - javascript
 
 toc_footers:
@@ -30,6 +29,16 @@ Lo anterior se puede dividir en dos grupos: “Botones Evidentes” y “Botones
 ### Botones evidentes
 Que tienen un color de fondo
 
+```html
+<button class="small">Click me</button>
+```
+
+```css
+.small{
+	
+}
+```
+
 ### Botones sutiles
 Que tienen fondo transparente.
 
@@ -42,6 +51,11 @@ Cuándo se necesita un llamado a una acción.
 * Se debe jerarquizar a través de su color o su tamaño, dependiendo la importancia de su acción respecto a los demás botones.
 * Debe ser consistente (ej Si se definen botones de borde rectangular, todos deben ser así)
 * Para dispositivos móviles el tamaño mínimo en mm debe ser 10x10mm
+
+## Referencias
+* https://www.smashingmagazine.com/2009/10/call-to-action-buttons-examples-and-best-practices/
+* https://www.smashingmagazine.com/2016/11/the-golden-rules-of-mobile-navigation-design/
+* https://www.smashingmagazine.com/2016/11/a-quick-guide-for-designing-better-buttons/
 
 <aside class="notice">
 You must replace <code>meowmeowmeow</code> with your personal API key.

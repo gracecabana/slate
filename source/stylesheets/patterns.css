@@ -1,0 +1,225 @@
+@charset "utf-8";
+/* CSS Document */
+
+@font-face{
+	font-family:'Raleway';
+	src:url('../fonts/Raleway.eot') format('embedded-opentype'),
+		url('../fonts/Raleway.woff') format('woff'),
+		url('../fonts/Raleway.ttf') format('truetype');
+    font-weight:normal;
+	font-style:normal;
+}
+body{
+	font-size:14px;
+	font-family:"Raleway";
+}
+input:focus{
+	outline:none;
+}
+select:focus{
+	outline:none;
+}
+/*--------------------BUTTON------------------*/
+
+/*--Visible--*/
+button{
+	font-family:"Raleway";
+	cursor:pointer;
+	outline:none;
+}
+button:hover{
+	background:#ffffff;
+	outline:none;
+}
+button:active{
+	background:#cccccc;
+	outline:none;
+}
+button i{
+	width:15px;
+	height:15px;
+	display:inline-block;
+	background:url(../svg/icon-download.svg) no-repeat 50% 50%;
+	background-size:100% auto;
+}
+button span{
+	display:inline-block;
+	margin:0 0 0 5px;
+}
+button.inactive{
+	cursor:not-allowed;
+	background:#aaaaaa;
+}
+button.inactive:hover{
+	background:#aaaaaa;
+	outline:none;
+}
+button.inactive:active{
+	background:#aaaaaa;
+	outline:none;
+}
+button.big{
+	font-size:1.5em;
+}
+button.medium{
+	font-size:1em;
+}
+button.small{
+	font-size:0.7em;
+}
+
+/*--Sutil--*/
+button.sutil{
+	font-family:"Raleway";
+	cursor:pointer;
+	outline:none;
+	background:transparent;
+}
+button.sutil:hover{
+	background:transparent;
+	outline:none;
+	opacity:0.8;
+}
+button.sutil:active{
+	background:transparent;
+	outline:none;
+	opacity:0.8;
+}
+button.sutil i{
+	width:15px;
+	height:15px;
+	display:inline-block;
+	background:url(../svg/icon-download.svg) no-repeat 50% 50%;
+	background-color:transparent;
+	background-size:100% auto;
+}
+button.sutil span{
+	display:inline-block;
+	margin:0 0 0 5px;
+}
+button.sutil.inactive{
+	cursor:not-allowed;
+	background:transparent;
+	opacity:0.8;
+}
+button.sutil.inactive:hover{
+	background:transparent;
+	outline:none;
+	opacity:0.8;
+}
+button.sutil.inactive:active{
+	background:transparent;
+	outline:none;
+	opacity:0.8;
+}
+
+/*--------TOOLTIP--------*/
+.tooltip{
+	width: 300px;
+    background-color: #ccc;
+    padding: 10px;
+}
+.tooltip p{
+    margin: 0;
+}
+.tooltip::after{
+	content: "";
+    width: 16px;
+    height: 16px;
+    position: relative;
+    float: left;
+    margin: 10px 0 0 -8px;
+    left: 50%;
+	border-right:8px solid transparent;
+	border-left:8px solid transparent;
+	border-top:8px solid #cccccc;
+	box-sizing:border-box;
+}
+.input-tooltip{
+	position:relative;
+	width:100%;
+}
+
+/*-------------CHECBOX LIST------------*/
+ul.check-box-list li{
+	list-style:none;
+}
+ul.radio-list li{
+	list-style:none;
+}
+
+/*-------------MODAL------------*/
+.modal{
+	position:fixed;
+	background-color:rgba(0,0,0,0.5);
+	top:0;
+	left:0;
+	right:0;
+	bottom:0;
+	z-index:1000;
+}
+.modal .modal-ventana{
+	position:relative;
+	width:600px;
+	background-color:#ffffff;
+	margin:0 auto;
+	padding:20px;
+	top:10%;
+}
+.modal .modal-cerrar{
+	position:absolute;
+	top:0;
+	right:0;
+}
+
+/*-------------DATE INPUT------------*/
+.date-input{
+	float:left;
+}
+.date-campo{
+	float:left;
+}
+.date-campo input{
+	width:30px;
+}
+.date-campo button i{
+	width:15px;
+	height:15px;
+	display:inline-block;
+	background:url(../svg/icon-calendar.svg) no-repeat 50% 50%;
+	background-size:100% auto;
+}
+
+/*-------------VALIDACIÓN------------*/
+.input-validado{
+	position:relative;
+	width:200px;
+}
+.input-validado input{
+	width:100%;
+	border:solid 1px #00dd00;
+}
+.input-validado i{
+	width:15px;
+	height:15px;
+	display:inline-block;
+	background:url(../svg/icon-validado.svg) no-repeat 50% 50%;
+	background-size:100% auto;
+	float:right;
+	margin-right:-20px;
+	margin-top:-20px;	
+}
+.input-error{
+	position:relative;
+	width:200px;
+}
+.input-error input{
+	width:100%;
+	border:solid 1px #dd0000;
+}
+.input-error span{
+	color:#dd0000;
+	float:right;
+	text-align:right;
+	font-size:0.7em;
+}

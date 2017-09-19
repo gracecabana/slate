@@ -25,7 +25,13 @@ Intro bella redactada por Andy aquí :)
 
 ## Descripción
 Existen tres tipos de botones, cada uno puede trabajarse en tres tamaños distintos y cada uno tiene diferentes estados, estas características deben ser transversales sin importar los estilos que se usen para personalizarlos.
-Lo anterior se puede dividir en dos grupos: “Botones Evidentes” y “Botones Sutiles”. El primer conjunto corresponde a los botones que tienen un color de fondo, y el segundo a los botones que tienen un fondo transparente.
+Lo anterior se puede dividir en dos grupos: “Botones Evidentes” y “Botones Sutiles”. 
+
+### Botones evidentes
+Que tienen un color de fondo
+
+### Botones sutiles
+Que tienen fondo transparente.
 
 ## ¿Cuándo se usa?
 Cuándo se necesita un llamado a una acción.

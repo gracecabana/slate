@@ -430,3 +430,54 @@ td,
 th {
     padding: 0;
 }
+
+/*--------------------------------------------*/
+/*--------------------BUTTON------------------*/
+/*--------------------------------------------*/
+
+/*--Visible--*/
+button{
+    font-family:"Raleway";
+    cursor:pointer;
+    outline:none;
+}
+button:hover{
+    background:#ffffff;
+    outline:none;
+}
+button:active{
+    background:#cccccc;
+    outline:none;
+}
+button i{
+    width:15px;
+    height:15px;
+    display:inline-block;
+    background:url(../svg/icon-download.svg) no-repeat 50% 50%;
+    background-size:100% auto;
+}
+button span{
+    display:inline-block;
+    margin:0 0 0 5px;
+}
+button.inactive{
+    cursor:not-allowed;
+    background:#aaaaaa;
+}
+button.inactive:hover{
+    background:#aaaaaa;
+    outline:none;
+}
+button.inactive:active{
+    background:#aaaaaa;
+    outline:none;
+}
+button.big{
+    font-size:1.5em;
+}
+button.medium{
+    font-size:1em;
+}
+button.small{
+    font-size:0.7em;
+}

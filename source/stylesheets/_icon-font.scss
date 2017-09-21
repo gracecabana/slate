@@ -10,6 +10,16 @@
   font-style: normal;
 }
 
+@font-face {
+  font-family: 'Raleway';
+  src:font-url('Raleway.eot');
+  src:font-url('Raleway.eot') format('embedded-opentype'),
+    font-url('Raleway.woff') format('woff'),
+    font-url('Raleway.ttf') format('truetype'),
+  font-weight: normal;
+  font-style: normal;
+}
+
 %icon {
   font-family: 'slate';
   speak: none;

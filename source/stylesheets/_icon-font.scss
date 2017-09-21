@@ -11,13 +11,10 @@
 }
 
 @font-face {
-  font-family: 'Raleway';
-  src:font-url('Raleway.eot');
-  src:font-url('Raleway.eot') format('embedded-opentype'),
-    font-url('Raleway.woff') format('woff'),
-    font-url('Raleway.ttf') format('truetype'),
-  font-weight: normal;
-  font-style: normal;
+  font-family: "Raleway";
+  src: url("Raleway.eot?") format("eot"),
+     url("Raleway.woff") format("woff"),
+     url("Raleway.ttf") format("truetype");
 }
 
 %icon {

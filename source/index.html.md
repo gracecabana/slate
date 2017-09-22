@@ -1,5 +1,5 @@
 ---
-title: API Reference
+title: S4N - Librería de componentes
 
 language_tabs: # must be one of https://git.io/vQNgJ
   - html
@@ -35,7 +35,7 @@ Que tienen un color de fondo
 
 ```css
 .small{
-	
+	font-size:0.7em;
 }
 ```
 #### Small
@@ -44,6 +44,20 @@ Que tienen un color de fondo
 
 ```html
 <button><i></i><span>Click me</span></button>
+```
+
+```css
+button i{
+  width:15px;
+  height:15px;
+  display:inline-block;
+  background:url(../svg/icon-download.svg) no-repeat 50% 50%;
+  background-size:100% auto;
+}
+button span{
+  display:inline-block;
+  margin:0 0 0 5px;
+}
 ```
 #### Ícono y texto
 <button><i></i><span>Click me</span></button>

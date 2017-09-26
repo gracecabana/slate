@@ -41,11 +41,36 @@ Que tienen un color de fondo
 #### Small
 <button class="small">Click me</button>
 
+```html
+<button class="medium">Click me</button>
+```
+
+```css
+.medium{
+  font-size:1em;
+}
+```
+#### Medium
+<button class="medium">Click me</button>
+
+```html
+<button class="big">Click me</button>
+```
+
+```css
+.big{
+  font-size:1.5em;
+}
+```
+#### Big
+<button class="big">Click me</button>
+
 
 ```html
 <button><i></i><span>Click me</span></button>
 ```
-
+#### Ícono y texto
+<button><i></i><span>Click me</span></button>
 ```css
 button i{
   width:15px;
@@ -59,8 +84,27 @@ button span{
   margin:0 0 0 5px;
 }
 ```
-#### Ícono y texto
-<button><i></i><span>Click me</span></button>
+
+```html
+<button class="inactive">Click me</button>
+```
+#### Inactivo
+<button class="inactive">Click me</button>
+```css
+button.inactive{
+  cursor:not-allowed;
+  background:#aaaaaa;
+}
+button.inactive:hover{
+  background:#aaaaaa;
+  outline:none;
+}
+button.inactive:active{
+  background:#aaaaaa;
+  outline:none;
+}
+```
+
 
 
 ### Botones sutiles

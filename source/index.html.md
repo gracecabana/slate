@@ -67,6 +67,7 @@ Que tienen un color de fondo
 
 #### Ícono y texto
 <button><i></i><span>Click me</span></button>
+
 ```html
 <button><i></i><span>Click me</span></button>
 ```
@@ -87,6 +88,7 @@ button span{
 
 #### Inactivo
 <button class="inactive">Click me</button>
+
 ```html
 <button class="inactive">Click me</button>
 ```

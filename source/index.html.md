@@ -65,12 +65,12 @@ Que tienen un color de fondo
 #### Big
 <button class="big">Click me</button>
 
-
+#### Ícono y texto
+<button><i></i><span>Click me</span></button>
 ```html
 <button><i></i><span>Click me</span></button>
 ```
-#### Ícono y texto
-<button><i></i><span>Click me</span></button>
+
 ```css
 button i{
   width:15px;
@@ -85,11 +85,12 @@ button span{
 }
 ```
 
+#### Inactivo
+<button class="inactive">Click me</button>
 ```html
 <button class="inactive">Click me</button>
 ```
-#### Inactivo
-<button class="inactive">Click me</button>
+
 ```css
 button.inactive{
   cursor:not-allowed;

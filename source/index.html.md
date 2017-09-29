@@ -17,6 +17,7 @@ includes:
   - menuselect
   - dateinput
   - tooltip
+  - modal
   - errors
 
 search: true

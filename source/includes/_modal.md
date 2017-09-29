@@ -44,18 +44,7 @@ Una ventana modal es un elemento que se encuentra o aparece encima de la ventana
 }
 ```
 
-<div class="modal">
-    <div class="modal-ventana">
-        <button class="modal-cerrar">X</button>
-        <h1>Esto es un título</h1>
-        <p>Espacio para textos. Lemon drops pudding bonbon biscuit lollipop chupa chups I love jelly beans I love. Cheesecake marshmallow gummies biscuit oat cake marshmallow lemon drops. Lollipop dragée cake I love soufflé I love gummies jelly.
-        </p>
-        <p>Cotton candy dragée chocolate bar carrot cake. Fruitcake marshmallow topping bear claw jelly beans macaroon. Chocolate donut chocolate.
-        </p>
-        <button>Aceptar</button>
-        <button>Cancelar</button>
-    </div>
-</div>
+[//]: # (incluir opción para abrir/cerrar modal)
 
 ## ¿Cuándo se usa?
 Pueden existir principalmente 3 escenarios de uso:

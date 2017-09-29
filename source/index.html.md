@@ -15,6 +15,7 @@ includes:
   - radiobutton
   - checkbutton
   - menuselect
+  - dateinput
   - errors
 
 search: true

@@ -16,6 +16,7 @@ includes:
   - checkbutton
   - menuselect
   - dateinput
+  - tooltip
   - errors
 
 search: true

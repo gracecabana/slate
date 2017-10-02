@@ -4,31 +4,23 @@
 ## Descripción
 
 ```html
-<ul class="radio-list">
-	<li><label><input type="radio">Opción número uno</label></li>
-    <li><label><input type="radio">Opción número dos</label></li>
-    <li><label><input type="radio">Opción número tres</label></li>
-    <li><label><input type="radio">Opción número cuatro</label></li>
-</ul>
+<form action="">
+  <input type="radio" name="opcion1" value="opcion1">Opción número uno<br>
+  <input type="radio" name="opcion2" value="opcion2">Opción número dos<br>
+  <input type="radio" name="opcion3" value="opcion3">Opción número tres<br>
+  <input type="radio" name="opcion4" value="opcion4">Opción número cuatro
+</form>
 ```
 
 ```css
-ul.radio-list li{
-	list-style:none;
-}
+
 ```
 
-<ul class="radio-list">
-	<li><input type="radio" name="opcion1" value="opcion1">Opción número uno</li>
-    <li><input type="radio" name="opcion2" value="opcion2">Opción número dos</li>
-    <li><input type="radio" name="opcion3" value="opcion3">Opción número tres</li>
-    <li><input type="radio" name="opcion4" value="opcion4">Opción número cuatro</li>
-</ul>
-
 <form action="">
-  <input type="radio" name="gender" value="male"> Male<br>
-  <input type="radio" name="gender" value="female"> Female<br>
-  <input type="radio" name="gender" value="other"> Other
+  <input type="radio" name="opcion1" value="opcion1">Opción número uno<br>
+  <input type="radio" name="opcion2" value="opcion2">Opción número dos<br>
+  <input type="radio" name="opcion3" value="opcion3">Opción número tres<br>
+  <input type="radio" name="opcion4" value="opcion4">Opción número cuatro
 </form>
 
 ## ¿Cuándo se usa?

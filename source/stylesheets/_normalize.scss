@@ -647,3 +647,50 @@ ul.radio-list li{
     text-align:right;
     font-size:0.7em;
 }
+
+
+/*--------------------------------------------*/
+/*--------------------TABLE-------------------*/
+/*--------------------------------------------*/
+table {
+    border-collapse: collapse;
+    width: 100%;
+    font-size:0.8em;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #ededed;
+}
+@media (max-width: 991px){
+    table, thead, tbody, td, tr { 
+        display: block;
+        text-align:left; 
+    }
+    table thead tr { 
+        position: absolute;
+        top: -9999px;
+        left: -9999px;
+    }
+    table td { 
+        border: none;
+        border-bottom: 1px solid #d8d9dd; 
+        position: relative;
+        padding-left: 50%; 
+    }   
+    table td:before { 
+        position: absolute;
+        left: 10px;
+        width: 45%; 
+        padding-right: 10px;
+        font-weight:bold; 
+    }
+    table td::before { 
+        content: attr(data-th)": ";
+    }
+}

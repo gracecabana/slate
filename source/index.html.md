@@ -12,9 +12,13 @@ toc_footers:
 
 includes:
   - button
-  - radiobutton
   - checkbutton
   - menuselect
+  - radiobutton
+  - dateinput
+  - validation
+  - table
+  - tooltip
   - errors
 
 search: true

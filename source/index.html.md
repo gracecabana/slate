@@ -19,6 +19,7 @@ includes:
   - validation
   - table
   - tooltip
+  - modal
   - errors
 
 search: true

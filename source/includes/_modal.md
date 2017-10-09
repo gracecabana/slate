@@ -5,24 +5,38 @@
 Una ventana modal es un elemento que se encuentra o aparece encima de la ventana principal de una aplicación o sistema. Los usuarios deben interactuar con la ventana modal antes de que puedan volver a la aplicación principal.
 
 ```html
+<<<<<<< HEAD
 <button onclick="toggleModal()">Mostrar modal</button>
 <div id="modal-window" class="modal">
     <div class="modal-ventana">
         <button class="modal-cerrar" onclick="toggleModal()">X</button>
+=======
+<div class="modal">
+    <div class="modal-ventana">
+        <button class="modal-cerrar">X</button>
+>>>>>>> d80c180c88e8a894e0cabdfd43c60181271c1edd
         <h1>Esto es un título</h1>
         <p>Espacio para textos. Lemon drops pudding bonbon biscuit lollipop chupa chups I love jelly beans I love. Cheesecake marshmallow gummies biscuit oat cake marshmallow lemon drops. Lollipop dragée cake I love soufflé I love gummies jelly.
         </p>
         <p>Cotton candy dragée chocolate bar carrot cake. Fruitcake marshmallow topping bear claw jelly beans macaroon. Chocolate donut chocolate.
         </p>
+<<<<<<< HEAD
         <button onclick="toggleModal()">Aceptar</button>
         <button onclick="toggleModal()">Cancelar</button>
+=======
+        <button>Aceptar</button>
+        <button>Cancelar</button>
+>>>>>>> d80c180c88e8a894e0cabdfd43c60181271c1edd
     </div>
 </div>
 ```
 
 ```css
 .modal{
+<<<<<<< HEAD
     display: none;
+=======
+>>>>>>> d80c180c88e8a894e0cabdfd43c60181271c1edd
     position:fixed;
     background-color:rgba(0,0,0,0.5);
     top:0;
@@ -46,6 +60,7 @@ Una ventana modal es un elemento que se encuentra o aparece encima de la ventana
 }
 ```
 
+<<<<<<< HEAD
 ```javascript
 //= require ../lib/_jquery
 
@@ -55,6 +70,9 @@ function toggleModal() {
 ```
 
 
+=======
+[//]: # (incluir opción para abrir/cerrar modal)
+>>>>>>> d80c180c88e8a894e0cabdfd43c60181271c1edd
 
 ## ¿Cuándo se usa?
 Pueden existir principalmente 3 escenarios de uso:
@@ -62,14 +80,26 @@ Pueden existir principalmente 3 escenarios de uso:
 * Centrar la atención del usuario en una tarea específica.
 * Mostrar información adicional sin sacar al usuario del flujo de navegación.
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> d80c180c88e8a894e0cabdfd43c60181271c1edd
 ## ¿Cómo se usa?
 * El usuario siempre debe contar con acciones que le permitan cerrar la ventana modal y regresar a la pantalla principal.
 * La ventana modal debe contar con un título y descripción corta que ayude a soportar la interacción con el usuario.
 * La ventana modal debe permitir al usuario tener contexto, por lo tanto no debe ocupar todo el tamaño de la pantalla, permitiendo visibilidad de la pantalla principal.
+<<<<<<< HEAD
 
 *img aquí*
 
 
 ## Referencias
 * <https://uxplanet.org/best-practices-for-modals-overlays-dialog-windows-c00c66cddd8c>
+=======
+![alt text](../images/modal1.png "Ejemplo de ventana modal")
+
+## Referencias
+* <https://www.usability.gov/what-and-why/glossary/hover-help-or-tool-tiptooltip.html>
+* <https://uxplanet.org/tooltips-in-ui-design-f63e117aa3d1>
+
+>>>>>>> d80c180c88e8a894e0cabdfd43c60181271c1edd

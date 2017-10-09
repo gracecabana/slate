@@ -14,10 +14,14 @@ includes:
   - button
   - checkbutton
   - menuselect
+<<<<<<< HEAD
   - radiobutton
   - dateinput
   - validation
   - table
+=======
+  - dateinput
+>>>>>>> d80c180c88e8a894e0cabdfd43c60181271c1edd
   - tooltip
   - modal
   - errors

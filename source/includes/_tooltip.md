@@ -44,24 +44,12 @@ Es una caja pequeña que revela información útil cuando un usuario hace hover 
 * NO USAR cuando el usuario necesita interactuar con el contenido del tooltip.
 * NO USAR en móvil.
 
-<<<<<<< HEAD
-
-=======
->>>>>>> d80c180c88e8a894e0cabdfd43c60181271c1edd
 ## ¿Cómo se usa?
 * Deben incluir texto corto, conciso y de ayuda.
 * Deben ser ubicados junto al objeto de interés.
 * No deben interferir con la acción que el usuario esté haciendo en el momento.
 * Deben ser fáciles de descubrir.
 
-<<<<<<< HEAD
-
 ## Referencias
 * <https://www.usability.gov/what-and-why/glossary/hover-help-or-tool-tiptooltip.html>
 * <https://uxplanet.org/tooltips-in-ui-design-f63e117aa3d1>
-=======
-## Referencias
-* <https://www.usability.gov/what-and-why/glossary/hover-help-or-tool-tiptooltip.html>
-* <https://uxplanet.org/tooltips-in-ui-design-f63e117aa3d1>
-
->>>>>>> d80c180c88e8a894e0cabdfd43c60181271c1edd
